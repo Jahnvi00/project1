@@ -1,0 +1,34 @@
+
+body {background-image: url("background.jpg");background-size: 100% 100%;background-position: center center;background-repeat: no-repeat;}
+hgroup{display:flex;}
+
+header ul.navigation {background: moccasin none repeat scroll 0 0;border: 2px solid red;border-radius: 20px;display: flex;}
+ul.navigation {display: flex;}
+.navigation li {list-style: outside none none;padding: 10px;text-align: center;width: 20%;}
+.mobile-nav{display:none;}
+
+header h2{text-align:right;}
+.navigation li a {color:black;font-size:20px;font-family: cursive;font-weight:bold;}
+header .navigation li a:hover{text-decoration:none;}
+header .navigation li:hover , header .navigation li.selected{background-image:url('paintstroke.png');background-size:100% auto;background-position: center center;background-repeat: no-repeat;}
+
+footer{float:left;width:100%;padding-top:30px;}
+
+.main-section {background: moccasin none repeat scroll 0 0;border: 2px solid red;border-radius: 20px;float: left;padding: 30px 17px;text-align: justify;width: 100%;}
+.left-side{color: black;font-family: cursive;font-size: 17px;font-weight: 600;}
+.right-side{text-align:center;}
+.right-side img {border: 3px solid red;padding: 10px;}
+.section-2 p {font-family: cursive;font-size: 14px;margin-bottom: 0;padding: 16px 16px 10px;text-align: justify;}
+.section-2 {border-bottom: 2px dashed red;border-top: 2px dashed red;float: left;margin-bottom: 3rem;margin-top: 3rem;padding-bottom: 7px;width: 100%;}
+
+article > h3 {color: white;font-family: "Neucha",arial,serif;font-size: 2em;margin-bottom: 10px;padding: 10px 0 10px 10px;text-shadow: 2px 2px 4px black;}
+article p {margin-bottom: 10px;}
+section.product-pages{ margin-top: 12px;background:moccasin;float:left;width:100%;padding:15px 15px 30px;border-radius:20px;}
+
+jahnvi {background-image: url("background.jpg");background-size: 100% 100%;background-position: center center;background-repeat: no-repeat;}
+	hgroup{display:flex;}
+	header ul.navigation {background: moccasin none repeat scroll 0 0;border: 2px solid red;border-radius: 20px;display: flex;}
+	ul.navigation {display: flex;}
+	.navigation li {list-style: outside none none;padding: 10px;text-align: center;width: 20%;}
+	.mobile-nav{display:none;}
+}
